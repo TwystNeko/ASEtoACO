@@ -10,8 +10,7 @@ try:
     cmd = sys.argv[1]
 except:
     cmd = "-aco"
-
-
+    
 class Color:
     def __init__(self,name,red,green,blue) -> None:
         self.name = name.decode("UTF-16BE")[:-1]
